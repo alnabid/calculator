@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(0, 60, 255, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 20rem;
+    padding: 3rem;
+    background-color: rgba(116, 29, 255, 0.486);
+    border-radius: 0 3rem;
+    box-shadow: 2rem 2rem 0rem rgb(194, 177, 255);
+}
+
+.buttons, .operators, .more-operators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container > * > * {
+    background-color: rgb(194, 177, 255);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.operator {
+    background-color: rgb(9, 0, 87);
+}
+
+#submit {
+    background-color: rgb(153, 0, 255);
+    padding: 1rem 3rem;
+}
+
+#input, #output {
+    background-color: rgb(230, 208, 255);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.2rem 1rem;
+    border-radius: 3rem;
+}
+
+#output {
+    display: none;
+}
+
+#AC, #DE {
+    background-color: rgb(255, 130, 130);
+}
